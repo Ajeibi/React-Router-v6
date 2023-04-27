@@ -2,9 +2,9 @@ import { useState } from "react"
 
 export default function Offers() {
   const [items] = useState([
-    { title: 'Ninja Hoodie', price: 21.99 },
-    { title: 'Ninja Sneakers', price: 34.99 },
-    { title: 'Ninja Tee', price: 12.99 }
+    { title: 'Hoodie', price: 21.99 },
+    { title: 'Sneakers', price: 34.99 },
+    { title: 'Tee Shirts', price: 12.99 }
   ])
 
   return (
